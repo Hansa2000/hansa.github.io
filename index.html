@@ -339,10 +339,7 @@
         <!-- About Section -->
         <section id="about" class="card">
             <h2>About Me</h2>
-            <p>I am a passionate Biomedical Engineering student with a keen interest in developing solutions at the intersection of 
-                electronics and healthcare. My research experience spans multiple domains, including Human-Computer Interaction (HCI) and 
-                haptic feedback systems, 3D printing, wearable technology, and biosignal processing. Additionally, I have worked on 
-                projects involving analog and digital IC design, as well as hardware acceleration.
+            <p>I am a  biomedical engineering student who enjoys working on multidisciplinary projects. I have a strong theoretical background in analog electronics, computer architecture, and signal processing. My research experience spans across a few domains, including Human-Computer Interaction (HCI) and haptic feedback systems, 3D printing, wearable devices, and embedded systems. Additionally, I have worked on projects involving analog and mixed-signal IC design, as well as hardware acceleration.
             </p>
         </section>
 
@@ -357,9 +354,9 @@
                         style="max-width: 500px; width: 100%; height: auto; margin-bottom: 20px;">
                     <h3>3D-Printed Flexible EEG Electrodes for Neonatal Monitoring</h3>
                     <p>As part of the Braineocare25 project, we developed flexible, fully 3D-printed EEG electrodes 
-                        tailored for neonatal seizure prediction. Our innovative design successfully captured high-quality 
-                        EEG signals from team members, validating its potential for non-invasive, comfortable monitoring in 
-                        vulnerable infants. This advancement paves the way for safer neurodiagnostic tools in NICUs.</p>
+                        suitable for neonatal monitoring. Our innovative design successfully captured high-quality 
+                        EEG signals from team members (adults), validating its potential for non-invasive, comfortable monitoring in 
+                        vulnerable infants. We hope this advancement paves the way for safer neurodiagnostic tools in NICUs.</p>
                     <div class="project-tags">
                         <span class="tag">Flexible Electrodes</span>
                         <span class="tag">3D-printing</span>
@@ -381,7 +378,7 @@
                         <span class="tag">3D Printing</span>
                         <span class="tag">Wearables</span>
                     </div>
-                    <a href="https://dl.acm.org/doi/abs/10.1145/3675095.3676612" class="project-link">Paper</a>
+                    <a href="https://dl.acm.org/doi/abs/10.1145/3675095.3676612" class="project-link">[Paper]</a>
                 </div>
             </div>
         </section>
@@ -392,18 +389,46 @@
             <div class="projects-grid">
                 <div class="project-card">
                     <img 
+                        src="./images/projects/pll/pll_layouts.png" 
+                        alt="pll_layouts" 
+                        style="max-width: 485px; width: 100%; height: auto; margin-bottom: 15px;">
+                    <h3>A Fractional-N Phase Locked Loop (PLL) Clock Multiplier in IHP SG13G2 PDK</h3>
+                    <p>We designed a fractional-N PLL using the IHP SG13G2 PDK, targeting output frequencies from 10 kHz to 150 MHz with a 10 MHz reference input. This project was developed using open-source analog IC design tools. The goal was to gain hands-on experience with analog mixed-signal design flow while contributing to open-source EDA ecosystems. This is currently an ongoing project, and we are planning to submit for Tiny Tapeout. </p>
+                    <div class="project-tags">
+                        <span class="tag">RFIC</span>
+                        <span class="tag">PLL</span>
+                        <span class="tag">IHP SG13G2</span>
+                    </div>
+                    <!-- <a href="#" class="project-link">[GitHub]</a> -->
+                </div>
+                <div class="project-card">
+                    <img 
+                        src="./images/projects/braineocare/hardware_project.png" 
+                        alt="brianeocare25" 
+                        style="max-width: 485px; width: 100%; height: auto; margin-bottom: 15px;">
+                    <h3>Neonatal seizure prediction system (Braineocare 25)</h3>
+                    <p> For our final year project, we developed a neonatal seizure prediction system. It captures EEG and ECG signals from infants and feeds those to a machine learning model to predict seizures. We have validated the performance of the hardware system using simultaneously captured EEG signals from our device and the hospital's EEG device. And performance of the machine learning model using public datasets.</p>
+                    <div class="project-tags">
+                        <span class="tag">Sensor Fusion</span>
+                        <span class="tag">Machine Learning</span>
+                    </div>                  
+                    <a href="https://www.linkedin.com/posts/spark-at-uom_finalyearproject-neonatalcare-seizuredetection-activity-7336032934686093315-BfPP?utm_source=share&utm_medium=member_desktop&rcm=ACoAABkqN64BTVczrRFn_DEowGoPtCYO-ICRP4g" class="project-link">[LinkedIn]</a>
+                    <a href="https://drive.google.com/file/d/10UvWe--rVj_zB1iCFD3TQMGFz5kVShze/view?usp=sharing" class="project-link">[Poster]</a>
+                </div>
+                <div class="project-card">
+                    <img 
                         src="./images/projects/simd_accelerator/simd_accelerator.png" 
                         alt="simd_accelerator" 
                         style="max-width: 485px; width: 100%; height: auto; margin-bottom: 15px;">
                     <h3>SIMD Matrix Accelerator</h3>
-                    <p>We have designed a system integrating our SIMD processor and ARM core in zync SOC. We can easily 
+                    <p>We have designed a system integrating our SIMD processor(accelerator) and ARM core in zync SOC. We can easily 
                         change the number of processing elements (PE) in our SIMD processor and update the system to support it.</p>
                     <div class="project-tags">
                         <span class="tag">Computer Architecture</span>
                         <span class="tag">Hardware Acceleration</span>
                          <span class="tag">SoC</span>
                     </div>
-                    <a href="https://github.com/yasirueranda/SIMD_Processor" class="project-link">GitHub</a>
+                    <a href="https://github.com/yasirueranda/SIMD_Processor" class="project-link">[GitHub]</a>
                 </div>
                 <div class="project-card">
                     <img 
@@ -419,7 +444,7 @@
                         <span class="tag">Sensors</span>
                         <span class="tag">Wearables</span>
                     </div>                  
-                    <a href="https://github.com/Hansa2000/fitness_rubberband_mini_project" class="project-link">GitHub</a>
+                    <a href="https://github.com/Hansa2000/fitness_rubberband_mini_project" class="project-link">[GitHub]</a>
                 </div>
                 <div class="project-card">
                     <img 
@@ -434,7 +459,7 @@
                     <div class="project-tags">
                         <span class="tag">Computer Architecture</span>
                     </div>
-                    <a href="https://github.com/CroosJJSE/AXI-Bus-Design" class="project-link">GitHub</a>
+                    <a href="https://github.com/CroosJJSE/AXI-Bus-Design" class="project-link">[GitHub]</a>
                 </div>
                 <div class="project-card">
                     <img 
@@ -449,7 +474,7 @@
                         <span class="tag">Nerve stimulation</span>
                         <span class="tag">Wearables</span>
                     </div>                  
-                    <a href="https://github.com/Team-Sitzu/Wearable-Migraine-Therapuetic-Device" class="project-link">GitHub</a>
+                    <a href="https://github.com/Team-Sitzu/Wearable-Migraine-Therapuetic-Device" class="project-link">[GitHub]</a>
                 </div>
         </section>
 
