@@ -279,3 +279,64 @@ footer {
         height: 150px;
     }
 }
+
+/* Dark Mode Variables */
+[data-theme="dark"] {
+    --primary-color: #ecf0f1;
+    --secondary-color: #3498db;
+    --accent-color: #e74c3c;
+    --light-color: #2c3e50;
+    --dark-color: #f9f9f9;
+    --text-color: #f0f0f0;
+    --text-light: #bdc3c7;
+    --card-shadow: 0 4px 12px rgba(0,0,0,0.5);
+    background-color: #1a1a1a;
+}
+
+[data-theme="dark"] .card, 
+[data-theme="dark"] .project-card,
+[data-theme="dark"] .skill-category {
+    background-color: #2c3e50;
+    color: white;
+}
+
+[data-theme="dark"] .hero h1 {
+    color: white;
+}
+
+/* Theme Toggle Button Style */
+#theme-toggle {
+    background: none;
+    border: 2px solid var(--secondary-color);
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 20px 0;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+}
+
+#theme-toggle:hover {
+    background: var(--secondary-color);
+    color: white;
+}
+
+/* Notes Section Styling */
+.notes-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.note-item {
+    border-left: 4px solid var(--secondary-color);
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
+
+.note-date {
+    font-size: 0.8rem;
+    color: var(--text-light);
+    display: block;
+}
